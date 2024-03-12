@@ -74,8 +74,4 @@ export class AppComponent implements OnInit, OnDestroy{
       this.valueChangesSubscription.unsubscribe();
     }
   }
-
-  aaaa(value: any) {
-    console.log(value)
-  }
 }
